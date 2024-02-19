@@ -19,14 +19,7 @@ class RolePermissionsTableSeeder extends Seeder
             ['username' => 'admin2'],
             ['username' => 'developer'],
             ['username' => 'view'],
-            // ['username' => '2145616'],
-            // ['username' => '2166542'],
-            // ['username' => '2156220'],
-            // ['username' => 'K210085'],
-            // ['username' => 'K210259'],
-            // ['username' => 'K200142'],
-            // ['username' => 'K230108'],
-            // ['username' => 'K230138'],
+           
 
         ];
 
@@ -35,14 +28,7 @@ class RolePermissionsTableSeeder extends Seeder
             'admin'     => 2,
             'view'      => 3,
             'admin2'    => 2,
-            // '2145616'   => 1,    
-            // '2166542'   => 2,
-            // '2156220'   => 3,
-            // 'K210085'   => 4,
-            // 'K210259'   => 1,
-            // 'K200142'   => 2,
-            // 'K230108'   => 3,
-            // 'K230138'   => 4,
+            // '2145616'   => 2,
         ];
 
         $temp = array();

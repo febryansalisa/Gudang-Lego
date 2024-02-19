@@ -288,6 +288,20 @@ class BarangKeluarController extends Controller
             new BarangConsummableSheet($consummableData),
             new BarangAssetsSheet($assetData),
         ];
+        $column =[
+            "tgl_pengambilan",
+            "waktu_return",
+            "first_name",
+            "Nomor Pesanan",
+            "pic",
+            "nama_barang",
+            "jenis_barang",
+            "nama_kategori",
+            "jumlah_barang_keluar",
+            "jumlah_barang_return",
+            "jumlah_barang",
+            "keterangan",
+        ];
 
         return Excel::download(new ExportMultipleSheets($sheets), 'Laporan Barangkeluar.xlsx');
     }

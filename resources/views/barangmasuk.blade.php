@@ -132,12 +132,12 @@
                                         Choose an option:
                                     </li>
                                     <li class="navi-item">
-                                        <a onclick="modalBulananExport()" class="navi-link">
+                                        {{-- <a onclick="modalBulananExport()" class="navi-link">
                                             <span class="navi-icon">
                                                 <i class="la la-file-excel-o"></i>
                                             </span>
                                             <span class="navi-text">bulanan</span>
-                                        </a>
+                                        </a> --}}
                                     </li>
                                     </li>
                                     <li class="navi-item">

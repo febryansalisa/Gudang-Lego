@@ -46,11 +46,6 @@
 @endif
 <div class="d-flex flex-column flex-root" style="background-image: url('{{url('assets/media/bg/bg-12.png')}}'); background-size: cover">
     <div class="login login-5 wizard d-flex flex-column flex-lg-row flex-column-fluid">
-            <div class="d-flex flex-column-auto flex-column pt-lg-0 pt-15">
-                <a href="#" class="login-logo text-left pt-lg-10 pb-5 pl-15">
-                    <img src="{{ asset('assets/media/logos/logobumnterbaru2020.png') }}" class="max-h-80px" alt=""/>
-                </a>
-            </div>
             <div class="d-flex flex-row-fluid untuk-kotak-tengh">
                 <div class="login-form">
                     <form class="form" id="kt_login_singin_form" action="{{ url('forgetpassword/store') }}" novalidate method="POST">

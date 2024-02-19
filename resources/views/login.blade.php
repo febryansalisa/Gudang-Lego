@@ -49,7 +49,7 @@
 <!--end::Head-->
 <!--begin::Body-->
 
-<body id="kt_body" class="header-fixed header-mobile-fixed subheader-enabled subheader-fixed aside-enabled aside-fixed aside-minimize-hoverable page-loading">
+<body id="kt_body" class="header-fixed header-mobile-fixed subheader-enabled subheader-fixed aside-enabled aside-fixed aside-minimize-hoverable page-loading" style="background-color: #ffffff;">
     <!--begin::Main-->
     @if(session()->has('message_success'))
     <div class="alert alert-success alert-block">
@@ -67,7 +67,6 @@
         <!--begin::Login-->
         <div class="login login-5 wizard d-flex flex-column flex-lg-row flex-column-fluid">
             <!--begin::Aside-->
-            <div class="login-aside flex-row-fluid d-flex flex-column" style="background-image:url({{url('assets/media/bg/login-foto.png')}});background-repeat: no-repeat;background-repeat: round; ">
                 {{--<div class="login-aside d-flex flex-column flex-row-auto">--}}
                 <!--begin::Aside Top-->
                 <div class="d-flex flex-column-auto flex-column pt-lg-0 pt-15">
@@ -88,16 +87,7 @@
             <!--begin::Aside-->
             <!--begin::Content-->
             {{--<div class="login-content flex-row-fluid d-flex flex-column" style="background-image:url({{url('assets/media/logos/logo-rekon.png')}})">--}}
-            <div class="login-content flex-row-fluid d-flex flex-column" {{--             style="background-image: url('{{url('assets/media/svg/shapes/abstract-4.svg')}}'); background-size: cover">--}}
-                style="background-image: url('{{url('assets/media/bg/bg-12.png')}}'); background-size: cover">
-                {{--<div class="login-content flex-row-fluid d-flex flex-column p-10">--}}
-                <!--begin::Wrapper-->
-                <div class="d-flex flex-column-auto flex-column pt-lg-0 pt-15">
-                    <!--begin::Aside header-->
-                    <a href="#" class="login-logo text-right pt-lg-10 pb-5 pr-15">
-                        <img src="{{ asset('assets/media/logos/logo-petro.png') }}" class="max-h-75px" alt="" />
-                    </a>
-                </div>
+            <div class="login-content flex-row-fluid d-flex flex-column" >
 
                 <div class="d-flex flex-row-fluid untuk-kotak-tengh">
                     <!--begin::Signin-->
@@ -106,14 +96,7 @@
                         <form class="form" id="kt_login_singin_form" action="{{ url('login/store') }}" novalidate method="POST">
                             @csrf
                             <!--begin::Title-->
-                            <div class="pb-5 pb-lg-5">
-                                {{--<div class="symbol symbol-150 symbol-xxl-100 mr-5 align-self-start align-self-xxl-center">--}}
-                                {{--<div class="symbol-label" style="background-image:url('/metronic/theme/html/demo1/dist/assets/media/users/300_21.jpg')"></div>--}}
-                                <img src="{{ asset('assets/media/logos/sintalogo.png') }}" style=" display: block;margin: 0 auto; width: 240px;" alt="" />
-                                {{--<i class="symbol-badge bg-success"></i>--}}
-                                {{--</div>--}}
-                                {{--<h3 class="font-weight-bolder text-warning">Masuk Ke E-Recon</h3>--}}
-                            </div>
+                            
                             <!--begin::Title-->
                             <!--begin::Form group-->
                             <div class="form-group">
@@ -141,14 +124,10 @@
                                     Sign In
                                 </button>
                             </div>
-                            <div class="form-group row">
-                                <div class="col-md-6 offset-md-4">
-                                    <div class="checkbox">
-                                        <label>
-                                            <a href="{{ url('forgetpassword') }}">Reset Password</a>
-                                        </label>
-                                    </div>
-                                </div>
+                            <div class="pb-lg-0 pb-5">
+                                <label>
+                                    <a href="{{ url('forgetpassword') }}">Reset Password</a>
+                                </label>      
                             </div>
                             <!--end::Action-->
                         </form>

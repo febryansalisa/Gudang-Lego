@@ -27,7 +27,7 @@
 		<link href="{{ asset('assets/css/themes/layout/brand/light.css') }}" rel="stylesheet" type="text/css" />
 		<link href="{{ asset('assets/css/themes/layout/aside/light.css') }}" rel="stylesheet" type="text/css" />
 		<!--end::Layout Themes-->
-		<link rel="shortcut icon" href="{{ asset('assets/media/logos/favicon.png') }}" />
+		{{-- <link rel="shortcut icon" href="{{ asset('assets/media/logos/favicon.png') }}" /> --}}
 		@yield('css_page')
 
 	</head>

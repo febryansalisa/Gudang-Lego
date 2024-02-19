@@ -168,11 +168,11 @@
                         <div class="mb-7">
                             <input type="hidden" name="user_code" id="user_code">
                             <div class="form-group row">
-                                <label class="col-lg-3 col-form-label">NomorDOF/ E-Ticket:</label>
+                                <label class="col-lg-3 col-form-label">Nomor Pesanan:</label>
                                 <div class="col-lg-9">
                                     <input type="text" class="form-control" id="nodofetiket_code"
-                                        name="nodofetiket_code" placeholder="Contoh : HLP-23-01223/DOF-10571" />
-                                    <span class="form-text text-muted">masukan DOF(Deep Of Field)/ E-Ticket</span>
+                                        name="nodofetiket_code" placeholder="Contoh : SHP-23-01223/TKP-10571" />
+                                    <span class="form-text text-muted">masukan nomor pesanan</span>
                                 </div>
                             </div>
                             <div class="form-group row">
@@ -280,11 +280,11 @@
                         <div class="mb-7">
                             <input type="hidden" name="user_code_edit" id="user_code_edit">
                             <div class="form-group row">
-                                <label class="col-lg-3 col-form-label">NomorDOF/ E-Ticket:</label>
+                                <label class="col-lg-3 col-form-label">Nomor Pesanan:</label>
                                 <div class="col-lg-9">
                                     <input type="text" class="form-control" id="nodofetiket_code_edit"
-                                        name="nodofetiket_code" placeholder="Contoh : HLP-23-01223/DOF-10571" />
-                                    <span class="form-text text-muted">masukan DOF(Deep Of Field)/ E-Ticket</span>
+                                        name="nodofetiket_code" placeholder="Contoh : SHP-23-01223/TKP-10571" />
+                                    <span class="form-text text-muted">masukan Nomor Pesanan</span>
                                 </div>
                             </div>
                             <div class="form-group row">
@@ -386,11 +386,11 @@
                         <div class="mb-7">
                             <input type="hidden" name="user_code" id="user_code">
                             <div class="form-group row">
-                                <label class="col-lg-3 col-form-label">NomorDOF/ E-Ticket:</label>
+                                <label class="col-lg-3 col-form-label">Nomor Pesanan:</label>
                                 <div class="col-lg-9">
                                     <input type="text" class="form-control" id="nodof_code" name="nodofetiket_code"
                                         placeholder="Contoh : 10451 /GS-10571" disabled />
-                                    <span class="form-text text-muted">masukan DOF(Deep Of Field)/ E-Ticket(</span>
+                                    <span class="form-text text-muted">Nomor Pesanan(</span>
                                 </div>
                             </div>                          
                             <!--  -->
@@ -486,11 +486,11 @@
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label class="col-lg-3 col-form-label">NomorDOF/ E-Ticket:</label>
+                            <label class="col-lg-3 col-form-label">Nomor Pesanan:</label>
                             <div class="col-lg-9">
                                 <input type="text" class="form-control" id="nodofetiket_code_detail"
                                     name="nodofetiket_code_detail" readonly />
-                                <span class="form-text text-muted">masukan DOF(Deep Of Field)/ E-Ticket</span>
+                                <span class="form-text text-muted">Nomor Pesanan</span>
                             </div>
                         </div>
                         <div class="form-group row">
@@ -825,7 +825,7 @@
                    
                     {
                         field: 'no_dof_etiket',
-                        title: 'nodof/eticket',
+                        title: 'Nomor Pesanan',
                         textAlign: 'center',
                         autoHide: false,
                     },

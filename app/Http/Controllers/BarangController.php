@@ -57,7 +57,7 @@ class BarangController extends Controller
                 if ($gambar == '') {
                     $gambar = 'Belum ada gambar';
                 } else {
-                    $gambar = '<img src="'.$location.'/' . $row->gambar . '" width="100px" height="100px">';
+                    $gambar = '<img src="' . asset('file_barang/' . $gambar) . '" width="100px" height="100px">';
                 }
                 return $gambar;
             })
